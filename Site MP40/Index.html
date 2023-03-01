@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<!-- Comentários -->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>MP40</title>
+        <link rel="stylesheet" type="text/css" href="Estilo/CSS.css" />
+        <link rel="icon" href="Imagens/icon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />   
+        <script src="Scripts/jscript.js"></script>
+        <script>
+            var time = new Date();
+            console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+        </script>
+
+    </head>
+    
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#top">Mp40</a></li>
+                    <li><a href="#hist">História</a></li>
+                    <li><a href="#vid">Video</a></li>
+                    <li><a href="#nojogo">No Jogo</a></li>
+                </ul>
+            </nav>
+        </header>
+
+            <div class="fundo1">
+                <div class="destaque">Mp40
+                    <img src="Imagens/mp40.png" alt="Mp40" />
+                    Lúis Gustavo Araújo Oliveira GU3011658
+                </div>
+            </div>
+                
+            <div id="hist" class="conteudo_texto">
+                <h3>História</h3>
+                Uma arma clássica, com uma grande cadência de tiro e muito estável. O seu cano curto não a torna muito útil nas longas distâncias mas em lugares apertados como casas ou armazéns é eficaz. Dentro desse estilo de arma, é praticamente imbatível.
+                A MP40 foi descendente da MP38, as diferenças estando no custo de produção. As alterações foram um resultado de vários testes com milhares de MP38 (em serviço desde 1939), utilizadas durante a Invasão da Polónia. As alterações foram incorporadas numa versão intermédia (MP38/40), e mais tarde utilizadas na produção inicial da versão MP40. Mais de um milhão de unidades foram fabricadas de todas versões durante a guerra.
+                A MP40 era geralmente chamada por Schmeisser, nome do desenhista de armas Hugo Schmeisser. Embora Hugo Schmeisser não tivesse desenhado a MP40, mas tivesse ajudado no desenho da MP41 e a Sturmgewehr 44. E também Schmeisser não trabalhava para a fabricante Erfurter Maschinenfabrik (ERMA), mas sim para a Haenel. O desenhista da MP38 e MP40 foi Heinrich Vollmer.
+            </div>
+
+            <div class="fundo2">
+                <div class="destaque">Mp40 na Vida Real</div>
+            </div>
+
+            <div id="vid" class="conteudo">
+                <h3>Vídeo</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O38a_Bx18RU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="fundo3">
+                <div class="destaque"> Mp40 Jogo Free Fire</div>
+            </div>
+
+            <div id="nojogo" class="conteudo">
+                <h3>Vídeo e Skins</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Cs0VZVKcVZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h2>Skins</h2>
+
+            <div class="container_destaque">
+                <img id="img_destaque" src="Imagens/mp40.png" alt="default" title="Skins" /> 
+                <p id="p_destaque">Selecione uma Skin</p>
+            </div>
+
+            <div class="container" >
+                <img src="Imagens/mp40_3.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Padrão" /> 
+                <img src="Imagens/mp40_0.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Elétrica Roxa" /> 
+                <img src="Imagens/mp40_1.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Palhaço Sorrateiro" /> 
+                <img src="Imagens/mp40_2.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Elétrica" /> 
+                <img src="Imagens/mp40_4.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Às de Paus" /> 
+                <img src="Imagens/mp40_5.png" onmouseover="funExibe(this.alt,this.src)" class="fotos" alt="Mp40 Às de Espadas" /> 
+            </div>
+    </body>
+</html>

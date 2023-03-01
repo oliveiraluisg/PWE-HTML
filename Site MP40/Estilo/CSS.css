@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Averia Gruesa Libre', cursive;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(5, 68, 105);
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.fundo1 {
+    background-image:url(../Imagens/fundo.jpg);
+}
+
+.fundo2 {
+    background-image:url(../Imagens/fundo2.jpg);
+}
+
+.fundo3 {
+    background-image:url(../Imagens/fundo3.jpg);
+}
+
+.fundo1, .fundo2, .fundo3 {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+
+.destaque {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: whitesmoke;
+    background-color:darkblue ;
+    padding: 18px;
+    width: 40%;
+    font-size: 1rem;
+    filter: drop-shadow(4px 4px rgb(0, 238, 255));
+    margin: auto;
+}
+
+.conteudo_texto {
+    color: black;
+    background-color: whitesmoke ;
+    padding: 90px 25px;
+
+}
+
+.texto {
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(0, 113, 121);
+}
+
+img {
+    width: 100%;
+}
+
+.fotos {
+    border-radius: 90%;
+    width: 14%;
+    padding: 10px;
+}
+
+.container_destaque {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 60%;
+    background-color: lightgrey;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 90%;
+    background-color: lightgrey;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10%;
+}
+
+.container div {
+    width: 16%;
+    padding: 10px;
+}
+
+
+@media (min-width: 768px) {
+    nav {
+        padding: 20px 0px;
+    }
+    ul {
+        padding: 5px;
+    }
+    li {
+        width: 25%;
+        float: left;
+    }
+    li:hover {
+        transform: rotate(-30deg);
+    }
+    a {
+        font-size: 1.25rem;
+    }
+    .destaque {
+        padding: 18px;
+        font-size: 2rem;
+        width: 25%;
+    }
+    .destaque:hover {
+        transform: rotate(30deg);
+    }
+    .conteudo_texto {
+        padding: 70px;
+    }
+    .container_destaque {
+        width: 15%;
+    }
+    .container {
+        width: 80%;
+        flex-wrap: nowrap;
+    }
+    .container div {
+        padding: 25px;
+    }
+   
+}   
